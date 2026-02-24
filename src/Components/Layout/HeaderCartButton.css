@@ -1,0 +1,28 @@
+.button{
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    display: flex;
+    color: white;
+    padding: 0.75 3rem;
+}
+.button:hover,
+.button:active{
+    background-color: aliceblue;
+}
+.icon{
+    width: 100px;
+    height: 110px;
+    margin-right: 0.5rem;
+}
+.badge{
+    background-color: crimson;
+    padding: 0.25rem 1rem;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-left: 1rem;
+}
