@@ -7,10 +7,9 @@ return(
         <header className={classes.header}>
             <h1>React Meals</h1>
             <HeaderCartButton/>
-            <h2>Delicious Food</h2>
-            </header>
+             </header>
         <div className={classes['main-image']}>
-        <img src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg"/>
+        <img src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg" alt="A Delicious Food"/>
 </div>
     </Fragment>
 )

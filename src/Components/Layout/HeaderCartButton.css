@@ -2,21 +2,22 @@
     cursor: pointer;
     font: inherit;
     border: none;
-    background-color: aqua;
+    background-color: red;
     align-items: center;
     justify-content: space-around;
     font-weight: bold;
     display: flex;
     color: white;
     padding: 0.75 3rem;
+    border-radius: 25px;
 }
 .button:hover,
 .button:active{
     background-color: aliceblue;
 }
 .icon{
-    width: 100px;
-    height: 110px;
+    width: 1.35rem;
+    height: 1.35rem;
     margin-right: 0.5rem;
 }
 .badge{
@@ -25,4 +26,28 @@
     border-radius: 25px;
     font-weight: bold;
     margin-left: 1rem;
+}
+.button:hover.badge,
+.button:active.badge{
+    background-color: brown;
+}
+.bump{
+    animation: bump 300ms ease-out;
+}
+@keyframes bump{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(0.9);
+    }
+    30%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.15);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
