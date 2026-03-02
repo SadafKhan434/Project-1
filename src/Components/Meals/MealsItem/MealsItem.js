@@ -2,7 +2,8 @@ import MealsItemForm from './MealsItemForm';
 import classes from './MealsItem.Module.css';
 const MealsItem = props =>{
     const price=`$${props.price.toFixed(2)}`;
-return<li className={classes.meal}>
+return(
+<li className={classes.meal}>
 <div>
 <h3>{props.name}</h3>
 <div className={classes.description}>{props.description}</div>
@@ -12,5 +13,6 @@ return<li className={classes.meal}>
     <MealsItemForm/>
 </div>
 </li>
+)
 }
 export default MealsItem;

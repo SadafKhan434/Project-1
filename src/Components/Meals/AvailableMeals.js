@@ -19,7 +19,8 @@ const DUMMY_Meals=[
         name:'Barbecue Burger',
         description:'American,raw,meaty',
         price:12.99,
-    },{
+    },
+    {
         id:'m4',
         name:'Green Bowl',
         description:'Healthy and green',
@@ -27,12 +28,12 @@ const DUMMY_Meals=[
     },
 ];
 const AvailableMeals=()=>{
-    const mealsList = DUMMY_Meals.map((meals)=>(
+    const mealsList = DUMMY_Meals.map((meal)=>(
     <MealsItem 
-    key={meals.id}
-     name={meals.name}
-      description={meals.description}
-       price={meals.price}
+    key={meal.id}
+    name={meal.name}
+      description={meal.description}
+       price={meal.price}
        />
 ))
     return(
