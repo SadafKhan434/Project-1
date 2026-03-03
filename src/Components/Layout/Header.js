@@ -6,7 +6,7 @@ return(
     <Fragment>
         <header className={classes.header}>
             <h1>React Meals</h1>
-            <HeaderCartButton/>
+            <HeaderCartButton onClick={props.onShowCart}/>
              </header>
         <div className={classes['main-image']}>
         <img src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg" alt="A Delicious Food"/>
