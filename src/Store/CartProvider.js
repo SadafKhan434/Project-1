@@ -7,10 +7,13 @@ const CartProvider=(props)=>{
         cartContext.items.push(item)
         console.log(' inside addItemToCartHandler',cartContext);
        }
-     const removeItemFromCartHandler = (id) =>{}
+       
+     const removeItemFromCartHandler = (id) =>{
+    
+        }
     const cartContext={
-        items:items,
-        totalAmount:0,
+        items: items,
+        totalAmount: 0,
         addItem: addItemToCartHandler,
         removeItem: removeItemFromCartHandler,
         message:'Click here'
